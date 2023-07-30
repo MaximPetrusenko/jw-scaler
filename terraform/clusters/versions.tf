@@ -15,17 +15,6 @@ terraform {
       version = "2.5.0"
     }
 
-    minio = {
-      source = "aminueza/minio"
-      version = "1.17.1"
-    }
-
-    kubectl = {
-      source  = "registry.terraform.io/gavinbunney/kubectl"
-      version = ">= 1.10.0"
-    }
-
-
   }
 
   required_version = ">= 1.0.0"
