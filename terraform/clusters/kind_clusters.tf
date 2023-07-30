@@ -22,6 +22,7 @@ resource "kind_cluster" "infra" {
     api_version = "kind.x-k8s.io/v1alpha4"
     
     networking {
+        service_subnet = "10.96.0.0/24"
         api_server_address = "127.0.0.1"
         api_server_port = 6443
     }

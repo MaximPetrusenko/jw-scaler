@@ -4,6 +4,7 @@ metadata:
   name: minio
   namespace: default
 spec:
+  clusterIP: 10.96.0.10
   selector:
     app: minio
   ports:
