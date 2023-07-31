@@ -36,7 +36,7 @@ output "minio_password" {
 }
 
 resource "minio_s3_bucket" "data-terraform-s3" {
-  bucket = "data-terraform"
+  bucket = "data-terraform-s3"
   acl    = "public"
 }
 
